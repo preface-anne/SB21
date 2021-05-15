@@ -1,0 +1,83 @@
+/*What's CSS
+CSS Anatomy
+CSS Selectors
+CSS Fonts
+CSS Units
+ID and Class
+CSS Colors
+CSS Borders
+Box Model*/
+
+/*Selects all elements*/
+/*Remove default from some browsers*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+/*Selector - call an HTML tag */
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+/*Call an HTML tag element with an ID*/
+/*ID's are unique - for one element*/
+#banner {
+	width: 100%;
+}
+
+#logo {
+	height: 300px;
+}
+
+#menu {
+	height: 30px;
+}
+
+#signInLogo {
+	height: 40px;
+}
+
+#button1 {
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	padding: 8px;
+}
+
+.place {
+	height: 330px;
+	width: 330px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+#button2 {
+	text-align: center;
+	color: white;
+	background-color: lightgrey; /*temporary color*/
+	border-radius: 20px;
+	padding: 8px;
+}
+
+#banner2 {
+	height: 400px;
+	width: 1030px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.host {
+	color: lightgrey; /*temporary color*/
+}
+
+ol, li {
+	list-style-type: none;
+}
